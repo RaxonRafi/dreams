@@ -71,7 +71,7 @@
     width: 370px;
     height: 610.97px;
     top: 129.13px;
-    left: 900px;
+    left: 980px;
     padding: 32px 33px 33px 33px !important;
     border-radius: 30px !important;
     border: 3px solid #E6E6E6 !important;
@@ -94,9 +94,10 @@
     width: 100%;
     border: 1px;
     border-radius:30px !important ;
-   background-color: #00B9BF !important;
+    background-color: #00B9BF !important;
 }
 .checkBoxText{
+
     font-family: Montserrat;
     font-size: 12px;
     font-weight: 500;
@@ -127,7 +128,7 @@
 
 }
 .card-body textarea {
-    /* Resetting or overriding default styles */
+   
     
     resize: none; /* Prevent textarea from being resizable */
     outline: none; /* Remove the default focus outline */
@@ -138,7 +139,7 @@
 .blue-card{
     width: 730px;
     height:178.72px;
-    left: 130px;
+    left: 110px;
     padding: 50px 70px 50px 70px;
     border-radius: 27px !important;
 
@@ -163,5 +164,151 @@
     letter-spacing: 0em;
     text-align: left;
     color: white;
+
+}
+.image-gallary{
+   
+    margin-top: 400px;
+
+}
+.image-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 40px;
+
+}
+
+.div-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.div-text {
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    background-color: #FFFFFF;
+    color: #00B9BF;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    text-align: center;
+}
+.img-heading{
+
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #27272D;
+
+}
+.blue-card-2{
+width: 97%;
+height:160px;
+padding: 50px 70px 50px 70px;
+border-radius: 27px !important;
+background: linear-gradient(93.68deg, #008FBF 6.37%, #00B9BF 100.01%);
+
+}
+
+.card-box-content{
+
+    width:386px;
+    height: 60px;
+    padding: 20px 0.01px 0px 20px;
+    border-radius: 10px;
+    border: 2px;
+    gap: 10px;
+    background: linear-gradient(96.09deg, #008FBF 13.1%, #00B9BF 92.33%);
+ 
+    
+
+
+}
+.card-content span{
+
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    
+
+}
+.card-box-content span{
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    color: white;
+
+}
+.passport-section{
+    margin-top: 140px;
+}
+.img-box img{
+
+    width: 100%;
+    height: 640px;
+    border-radius: 0px 15px 0px 0px;
+}
+.headline-img img{
+    width: 40px;
+    height: 40px;
+}
+.headline-text span{
+    
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #27272D;
+
+    
+
+}
+.passport-text p{
+
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 55px;
+
+}
+.passport-btn{
+
+    margin-left: 50px;
+
+}
+.passport-btn a{
+
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid;
+    border-color: linear-gradient(95.62deg, #008FBF 10.43%, #00B9BF 77.24%);
+
+}
+.passport-btn a span{
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  #27272D;
 
 }
