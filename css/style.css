@@ -312,3 +312,47 @@ background: linear-gradient(93.68deg, #008FBF 6.37%, #00B9BF 100.01%);
     color:  #27272D;
 
 }
+.avg-deadlines{
+
+    background: linear-gradient(144.31deg, #00B9BF 20.9%, #008FBF 106.96%);
+
+}
+.design-sem-1 img{
+    height: 40px;
+    width: 40px;
+}
+.design-sem1-text .heading-span{
+
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    
+
+}
+.design-sem1-text{
+    margin: 10px 20px;
+
+}
+.design-sem1-p{
+    padding-top: 50px;
+
+    
+}
+.design-sem1-p , p{
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    
+}
+.table-primary {
+    --bs-table-bg: #028ba5 !important;
+}
