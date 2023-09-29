@@ -596,6 +596,83 @@ text-align: center;
     text-align: left;
     color: #FFFFFF;
     
+}
+.home-banner-abetura{
+    background-image: url('../images/Hero\ Banner2.png');
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    background-position-x: center;
+}
 
+.section-2{
+    background-color: #EDFBF3;
+    max-width: 1138px !important;
+    height: 764px;
+    top: 50px;
+    position: relative;
+    border-radius: 20px;
+}
+.green-box{
+    background-color: #42C256;
+    width: 215px;
+    height:48px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+
+
+}
+.green-box-heading{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #374456;
+    padding-top: 40px;
+}
+.green-box-p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1D1D1D;
+    padding-top: 40px;
+}
+.green-box-span{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    
+}
+.abetura-map1{
+    position:absolute;
+    
+}
+.abetura-map1-icon{
+    position:relative;
+    left: 70px;
+    top: 90px;
+}
+.abetura-map2{
+    position:absolute;
+    margin-top: 172px;
+    ;
+}
+.abetura-map2-icon{
+    position:relative;
+    top: 360px;
+    left: 300px;
+   
     
 }
