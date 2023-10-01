@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Montserrat:wght@300;400;600;700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@400;500;600&family=Montserrat:wght@300;400;600;700&family=Roboto:wght@400;500&display=swap');
 body{
     padding: 0;
     margin: 0;
@@ -585,7 +584,10 @@ text-align: center;
 
 }
 .content-text{
-    padding: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 150px;
+    padding-left: 113px;
 }
 .country-font{
     font-family: DM Sans;
@@ -675,4 +677,234 @@ text-align: center;
     left: 300px;
    
     
+}
+.home-banner-index{
+    background: linear-gradient(99.26deg, #00B9BF 3.31%, #008FBF 96.36%);
+    width: 100%;
+    height: 766px;
+    border-radius: 0px 0px 50px 50px;
+}
+.index-banner-content{
+    padding: 110px;
+    
+}
+.index-banner-content h1{
+
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+    
+}
+.index-banner-content p{
+
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+    
+}
+.index-banner-img{
+    right: 160px;
+    position: relative;
+    top: 115px;
+}
+.index-banner-btn{
+
+    width: 185px;
+    height: 60px;
+    top: 485px;
+    left: 414px;
+    padding: 0px 30px 0px 30px;
+    border-radius: 6px;
+    background: #060640;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.index-sec2-heading{
+ 
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.index-sec2-cards img{
+
+    width: 50px;
+    height: 50px;
+    background-color: #00B9BF;
+    border-radius: 10px;
+}
+.index-sec2-cards{
+    border: none !important;
+    
+}
+.index-sec2-cards p{
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    padding-top: 20px;
+    color: #27272D;
+
+}
+.index-sec2-cards h5{
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: #060640;
+    padding-top: 10px;
+
+}
+.card-round-image img{
+
+    border-radius: 50%;
+
+}
+.card-round-image i{
+
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: -18px;
+
+}
+.nif-span{
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #6941C6;
+padding: 2px 10px 2px 10px;
+background-color: #F9F5FF;
+border-radius: 16px;
+
+}
+.nacionalidade-span{
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #363F72;
+padding: 2px 10px 2px 10px;
+background-color: #F8F9FC;
+border-radius: 16px;
+
+}
+.imigração-span{
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #026AA2;
+padding: 2px 10px 2px 10px;
+background-color: #F0F9FF;
+border-radius: 16px;
+
+}
+.empresas-span{
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #C4320A;
+padding: 2px 10px 2px 10px;
+background-color: #FFF6ED;
+border-radius: 16px;
+
+}
+.news-section h5{
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.author{
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00B9BF;
+    
+    
+}
+.news-section{
+    border: 1px solid white !important;
+}
+.p-tag{
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    padding-top: 20px;
+    color: #27272D;
+
+}
+.input-box{
+    width: 545px;
+    height:50px;
+    border: 1px solid #ffffff;
+    padding: 12px 20px 12px 20px;
+    margin-bottom: 15px;
+
+}
+.input-submit-btn{
+    width: 545px;
+    height:50px;
+    border: 1px solid #ffffff;
+    padding: 12px 24px 12px 24px;
+    background: #00B9BF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: white;
+ 
+    
+
+}
+.global-text-design-bottom-sec{
+
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+
+
 }
