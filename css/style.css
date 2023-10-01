@@ -991,3 +991,71 @@ border-radius: 16px;
     color: #000000;
 
 }
+.thank-you-page{
+    background: linear-gradient(122.87deg, #00B9BF 8.22%, #008FBF 98.06%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.page-content h1{
+ 
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+    
+}
+.page-content span{
+ 
+    
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.page-content h5{
+ 
+
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+ 
+
+}
+.thank-you-page-btn{
+    width: 272px;
+    height: 62px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    color: #00B9BF;
+    text-align: center;
+    border: 1px solid white;
+
+
+  
+    
+}
