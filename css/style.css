@@ -908,3 +908,19 @@ border-radius: 16px;
 
 
 }
+.custom-btn{
+
+    width: 153px;
+    height: 51px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 15px;
+    border: 2px solid #58F0F5;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+
+}
