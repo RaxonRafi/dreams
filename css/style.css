@@ -924,3 +924,70 @@ border-radius: 16px;
 
 
 }
+
+.home-banner-nif{
+    background-image: url('../images/Hero\ Banner-nif.png');
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    background-position-x: center;
+}
+.nif-p-text{
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.nif-blue-text{
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    
+}
+.nif-span-text{
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00B9BF;
+    
+    
+}
+.check-text{
+
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #193766;
+    padding-left: 10px;
+
+}
+.nif-img-box{
+    width: 445px;
+    height: 579px;
+
+}
+.nif-sec2-text p{
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+
+}
