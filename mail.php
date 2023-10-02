@@ -1,16 +1,16 @@
 <?php
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     // Get form data
     $email = $_POST["email"];
     $name = $_POST["name"]; // Replace "name" with the actual input name attribute for "Nome"
-    $phone = $_POST["phone"]; // Replace "phone" with the actual input name attribute for "Telefone"
+    $phone = $_POST["telefone"]; // Replace "phone" with the actual input name attribute for "Telefone"
     $segmento = $_POST["segmento"]; // Replace "segmento" with the actual input name attribute for "Segmento da Empresa"
     $faturamento = $_POST["faturamento"]; // Replace "faturamento" with the actual input name attribute for "Faturamento Mensal"
     $message = $_POST["message"]; // Replace "message" with the actual input name attribute for the textarea
 
     // Email parameters
-    $to = "recipient@example.com"; // Replace with the recipient's email address
+    $to = "mr1633470rafi@gmail.com"; // Replace with the recipient's email address
     $subject = "Contato do Formulário";
     $headers = "From: $email";
 
