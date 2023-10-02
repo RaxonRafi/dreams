@@ -748,6 +748,14 @@ table th{
     }
 }
 @media only screen and (max-width: 1100px){
+    .abetura-map1-icon {
+        left: 70px;
+        display: inline;
+    }
+    .abetura-map2-icon {
+        left: 250px;
+        display: inline;
+    }
     .card-form{
         left: 600px;
     }
@@ -884,7 +892,7 @@ table th{
 	
 }
 @media only screen and (max-width: 425px){
-	/*Small smartphones [325px -> 425px]*/
+	
 }
 .home-banner-index{
     background: linear-gradient(99.26deg, #00B9BF 3.31%, #008FBF 96.36%);
@@ -1273,9 +1281,6 @@ border-radius: 16px;
 .consult-img-box{
     width: 566px;
     height: 675px;
-  
-    
-
 }
 .consult-blue-text{
     font-size: 11px;
