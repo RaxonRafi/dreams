@@ -22,3 +22,5 @@ updateTimes();
 
 // Update the times every second (1000 milliseconds)
 setInterval(updateTimes, 1000);
+
+//owl carousal
