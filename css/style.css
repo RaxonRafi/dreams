@@ -971,7 +971,7 @@ border-radius: 16px;
 .nif-img-box{
     width: 445px;
     height: 579px;
-
+    padding-left: 80px;
 }
 .nif-sec2-text p{
 
@@ -1175,6 +1175,16 @@ border-radius: 16px;
 .map2 img {
     width: 100%;
 }
+.que-sec {
+    padding-top: 25rem; 
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.nif-section {
+    padding-top: 10rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
 @media only screen and (max-width: 1400px){
     .card-form{
         left: 850px;
@@ -1354,6 +1364,17 @@ border-radius: 16px;
     .table-responsive {
         width: 400px;
     }
+    .que-sec {
+        padding-top: 25rem; 
+        margin-top: 500px;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    .nif-section {
+        padding-top: 10rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 @media only screen and (max-width: 767px){
     .section-2{
@@ -1391,7 +1412,13 @@ border-radius: 16px;
     }
     .passport-section-img {
         left: 0;
-    } 
+    }
+    .que-sec {
+        padding-top: 25rem; 
+        margin-top: 480px;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 @media only screen and (max-width: 700px){
 	.img-6-1 {
@@ -1410,6 +1437,10 @@ border-radius: 16px;
     .passport-btn {
         margin-left: 50px;
     }
+    .nif-img-box img{
+        width: 90%;
+        padding-left: 0;
+    }
 }
 @media only screen and (max-width: 590px){
 	.img-6-1 {
@@ -1422,6 +1453,7 @@ border-radius: 16px;
     .passport-section-img {
         left: -52px;
     }
+    
     
 }
 @media only screen and (max-width: 550px){
