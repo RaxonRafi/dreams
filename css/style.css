@@ -1166,6 +1166,15 @@ border-radius: 16px;
     padding-left:150px;
     padding-top: 50px;
 }
+.table-responsive {
+    width: 450px;
+}
+.passport-section-img img {
+    width: 100%;
+}
+.map2 img {
+    width: 100%;
+}
 @media only screen and (max-width: 1400px){
     .card-form{
         left: 850px;
@@ -1246,7 +1255,7 @@ border-radius: 16px;
         left: 70px;
         display: inline;
     }
-    .abetura-map2-icon {
+    .abetura-map2-icon, .map2-icon {
         left: 250px;
         display: inline;
     }
@@ -1306,7 +1315,7 @@ border-radius: 16px;
         position: absolute; 
         background-color: white !important;
     }
-    .home-banner-abetura {
+    .home-banner-abetura, .home-banner {
         margin-top: 50px;
     }
     .section-2{
@@ -1341,6 +1350,9 @@ border-radius: 16px;
     }
     .img-6-2 img {
         width: 300px;
+    }
+    .table-responsive {
+        width: 400px;
     }
 }
 @media only screen and (max-width: 767px){
@@ -1377,6 +1389,9 @@ border-radius: 16px;
     .image-gallary {
         margin-top: 950px;
     }
+    .passport-section-img {
+        left: 0;
+    } 
 }
 @media only screen and (max-width: 700px){
 	.img-6-1 {
@@ -1404,11 +1419,17 @@ border-radius: 16px;
         padding-left: 100px !important;
         margin-top: 20px !important;
     }
+    .passport-section-img {
+        left: -52px;
+    }
     
 }
 @media only screen and (max-width: 550px){
 	.image-gallary {
         margin-top: 990px;
+    }
+    .passport-section-img {
+        left: -82px;
     }
 }
 @media only screen and (max-width: 515px){
@@ -1427,6 +1448,10 @@ border-radius: 16px;
     }
     .abetura-map2-icon {
         left: 221px;
+        display: inline;
+    }
+    .map2-icon {
+        left: 168px;
         display: inline;
     }
     .img-6-1 img {
@@ -1448,6 +1473,9 @@ border-radius: 16px;
     }
     .image-gallary {
         margin-top: 1123px;
+    }
+    .table-responsive {
+        width: 300px;
     }
 }
 @media only screen and (max-width: 425px){
