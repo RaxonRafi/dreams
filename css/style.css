@@ -1177,8 +1177,8 @@ border-radius: 16px;
 }
 .que-sec {
     padding-top: 25rem; 
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 10rem !important;
+    padding-right: 10rem !important;
 }
 .nif-section {
     padding-top: 10rem;
@@ -1293,6 +1293,12 @@ border-radius: 16px;
     .social-link img {
         width: 100%;
     }
+    .que-sec {
+        padding-top: 25rem; 
+        margin-top: 500px;
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
+    }
 }
 @media only screen and (max-width: 1000px){
     .card-form{
@@ -1367,8 +1373,8 @@ border-radius: 16px;
     .que-sec {
         padding-top: 25rem; 
         margin-top: 500px;
-        padding-left: 10rem;
-        padding-right: 10rem;
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
     }
     .nif-section {
         padding-top: 10rem;
@@ -1416,8 +1422,8 @@ border-radius: 16px;
     .que-sec {
         padding-top: 25rem; 
         margin-top: 480px;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 20px !important;
+        padding-right: 0 !important;
     }
 }
 @media only screen and (max-width: 700px){
