@@ -1301,6 +1301,14 @@ border-radius: 16px;
     .blue-card {
         margin: 640px 0px 0px 0px;
     }
+    .nav-bar-1 {
+        z-index: 999;
+        position: absolute; 
+        background-color: white !important;
+    }
+    .home-banner-abetura {
+        margin-top: 50px;
+    }
     .section-2{
         width: 100% !important;
         height: 920px;
@@ -1438,6 +1446,9 @@ border-radius: 16px;
     .passport-btn a span {
         font-size: 15px;
     }
+    .image-gallary {
+        margin-top: 1123px;
+    }
 }
 @media only screen and (max-width: 425px){
 	.tell {
@@ -1445,6 +1456,12 @@ border-radius: 16px;
     }
     .service-card img{
         width: 90%;
+    }
+}
+@media only screen and (max-width: 390px){
+	
+    .image-gallary {
+        margin-top: 1120px;
     }
 }
 
