@@ -4,13 +4,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     // Get form data
     $email = $_POST["email"];
     $name = $_POST["name"]; // Replace "name" with the actual input name attribute for "Nome"
-    $phone = $_POST["telefone"]; // Replace "phone" with the actual input name attribute for "Telefone"
-    $segmento = $_POST["segmento"]; // Replace "segmento" with the actual input name attribute for "Segmento da Empresa"
-    $faturamento = $_POST["faturamento"]; // Replace "faturamento" with the actual input name attribute for "Faturamento Mensal"
+    $phone = $_POST["telefone"]; // Replace "phone" with the actual input name attribute for "Telefone" // Replace "faturamento" with the actual input name attribute for "Faturamento Mensal"
+    $ascendente = $_POST["ascendente"]; // Replace "phone" with the actual input name attribute for "Telefone" // Replace "faturamento" with the actual input name attribute for "Faturamento Mensal"
     $message = $_POST["message"]; // Replace "message" with the actual input name attribute for the textarea
 
     // Email parameters
-    $to = "mr1633470rafi@gmail.com"; // Replace with the recipient's email address
+    $to = "administrativo@bga-adv.com"; // Replace with the recipient's email address
     $subject = "Contato do Formulário";
     $headers = "From: $email";
 
@@ -18,8 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $email_message = "Nome: $name\n";
     $email_message .= "E-mail: $email\n";
     $email_message .= "Telefone: $phone\n";
-    $email_message .= "Segmento da Empresa: $segmento\n";
-    $email_message .= "Faturamento Mensal: $faturamento\n";
+    $email_message .= "Segmento da Empresa: $ascendente\n";
     $email_message .= "Mensagem:\n$message";
 
     // Send the email

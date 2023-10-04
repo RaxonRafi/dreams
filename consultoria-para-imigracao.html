@@ -31,42 +31,42 @@
 
     </div>
     <div class="container-fluid NavBar nav-bar-1">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <!-- Logo on the left -->
-              <a class="navbar-brand" href="#">
-                <img src="./images/image 2.png" alt="Your Logo" width="100%">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <!-- Navigation items on the right -->
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Nosso propósito</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Mentorias</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Serviços</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Software House</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Eventos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <button class="custom-btn me-2" type="button">Entre em contato</button>                </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <!-- Logo on the left -->
+          <a class="navbar-brand" href="#">
+            <img src="./images/image 2.png" alt="Your Logo" width="100%">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navigation items on the right -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="nosso-proposito.html">Nosso propósito</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mentorias.html">Mentorias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicos.html">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="software-house.html">Software House</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="eventos.html">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://blog.f-dreams.eu">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="custom-btn me-2" href="https://blog.f-dreams.eu/contato" type="button">Entre em contato</a>                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
     <div class="container-fluid home-banner-consult">
         <div class="card card-form" style="
@@ -75,20 +75,20 @@
     ">
             <div class="card-body">
                <div class="pb-3"> Deseja Obter a Nacionalidade Portuguesa? <span class="pb-3" style="color: #00B9BF;">Fale Conosco.</span></div>
-               <form class="row g-3">
+               <form action="mail-nif.php" method="post" class="row g-3">
                 <div class="col-md-12">
-                  <input type="text" class="form-control custom-input" placeholder="Nome" id="inputPassword4">
+                  <input type="text" class="form-control custom-input" name="name" placeholder="Nome" id="inputPassword4">
                 </div>
                 <div class="col-md-12">
-                  <input type="email" placeholder="E-mail" class="form-control custom-input" id="inputEmail4">
+                  <input type="email" placeholder="E-mail" name="email" class="form-control custom-input" id="inputEmail4">
                 </div>
               
                 <div class="col-12">
-                  <input  type="text" class="form-control custom-input" id="inputAddress" placeholder="Telefone">
+                  <input  type="text" class="form-control custom-input" name="telefone" id="inputAddress" placeholder="Telefone">
                 </div>
 
                 <div class="col-md-12">
-                  <textarea type="text" rows="5" class="form-control" id="inputCity"></textarea>
+                  <textarea type="text" name="message" rows="5" class="form-control" id="inputCity"></textarea>
                 </div>
       
                 <div class="col-md-12">
@@ -100,7 +100,7 @@
                   </div>
                 </div>
                 <div class="col-12">
-                  <button type="submit" class="btn btn-primary from-btn">Contate-nos</button>
+                  <button type="submit" name="submit" class="btn btn-primary from-btn">Contate-nos</button>
                 </div>
               </form>
             </div>
