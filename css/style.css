@@ -1505,6 +1505,9 @@ border-radius: 16px;
     .tell {
         padding-left: 100px;
     }
+    .consult-img-box img {
+        margin-top: 130px;
+    }
 }
 @media only screen and (max-width: 480px){
 	.image-gallary {
@@ -1519,6 +1522,9 @@ border-radius: 16px;
     .table-responsive {
         width: 300px;
     }
+    .consult-img-box img {
+        margin-top: 160px;
+    }
 }
 @media only screen and (max-width: 425px){
 	.tell {
@@ -1530,11 +1536,17 @@ border-radius: 16px;
     .global-text-design-bottom-sec {
         font-size: 30px;
     }
+    .consult-img-box img {
+        margin-top: 190px;
+    }
 }
 @media only screen and (max-width: 390px){
 	
     .image-gallary {
         margin-top: 1120px;
+    }
+    .consult-img-box img {
+        margin-top: 200px;
     }
 }
 
