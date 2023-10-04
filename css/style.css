@@ -1167,7 +1167,8 @@ border-radius: 16px;
 }
 .tell {
     padding-left:150px;
-    padding-top: 50px;
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
 .table-responsive {
     width: 450px;
@@ -1190,6 +1191,18 @@ border-radius: 16px;
 }
 .global-comm img {
     width: 100% !important;
+}
+.service-head {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: linear-gradient(90.64deg, #00B9BF 0%, #008FBF 107.98%);
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 20px;
 }
 @media only screen and (max-width: 1400px){
     .card-form{
@@ -1407,6 +1420,9 @@ border-radius: 16px;
         font-size: 25px;
         display: block;
     }
+    .avg-deadlines {
+        padding-bottom: 40px;
+    }
 }
 @media only screen and (max-width: 767px){
     .section-2{
@@ -1491,7 +1507,9 @@ border-radius: 16px;
         padding-bottom: 50px !important;
         font-size: 20px;
     }
-    
+    .index-sec2-heading {
+        font-size: 30px;
+    }
 }
 @media only screen and (max-width: 550px){
 	.image-gallary {
@@ -1503,6 +1521,16 @@ border-radius: 16px;
     .consult-img-box img {
         width: 100%;
         margin-top: 100px;
+    }
+    .section-2{
+        height: 100%;
+    }
+    .timeline-head-itmes span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .img-box img{
+        height: auto;
     }
 }
 @media only screen and (max-width: 515px){
@@ -1551,6 +1579,13 @@ border-radius: 16px;
         padding-bottom: 50px !important;
         font-size: 12px;
     }
+    .service-head {
+        font-size: 30px;
+        line-height: 24px;
+    }
+    .global-text-design-bottom-sec {
+        line-height: 30px;
+    }
 }
 @media only screen and (max-width: 480px){
 	.image-gallary {
@@ -1567,6 +1602,10 @@ border-radius: 16px;
     }
     .consult-img-box img {
         margin-top: 160px;
+    }
+    .green-box-heading  {
+        font-size:  30px;
+        line-height: 30px;
     }
 }
 @media only screen and (max-width: 425px){
