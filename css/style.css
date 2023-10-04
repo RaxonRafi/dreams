@@ -996,6 +996,9 @@ border-radius: 16px;
     justify-content: center;
     
 }
+.page-content {
+    text-align: center;
+}
 .page-content h1{
  
     font-size: 45px;
@@ -1049,7 +1052,6 @@ border-radius: 16px;
     color: #00B9BF;
     text-align: center;
     border: 1px solid white;
-
 }
 .home-banner-consult{
     background-image: url('../images/Hero\ Bannerconsult.png');
@@ -1168,7 +1170,8 @@ border-radius: 16px;
 }
 .tell {
     padding-left:150px;
-    padding-top: 50px;
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
 .table-responsive {
     width: 450px;
@@ -1188,6 +1191,21 @@ border-radius: 16px;
     padding-top: 10rem;
     padding-left: 10rem !important;
     padding-right: 10rem !important;
+}
+.global-comm img {
+    width: 100% !important;
+}
+.service-head {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: linear-gradient(90.64deg, #00B9BF 0%, #008FBF 107.98%);
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 20px;
 }
 @media only screen and (max-width: 1400px){
     .card-form{
@@ -1335,8 +1353,15 @@ border-radius: 16px;
         position: absolute; 
         background-color: white !important;
     }
-    .home-banner-abetura, .home-banner {
+    .home-banner-abetura, .home-banner, .home-banner-consult, .home-banner-index {
         margin-top: 50px;
+    }
+    .index-banner-img img {
+        display: none;
+    }
+    .index-banner-content {
+        padding: 10px;
+        margin-top: 150px;
     }
     .section-2{
         width: 100% !important;
@@ -1384,6 +1409,22 @@ border-radius: 16px;
         padding-top: 10rem;
         padding-left: 10px !important;
         padding-right: 0 !important;
+    }
+    .gradient-box img {
+        display: none !important;
+    }
+    .gradient-img {
+        display: none;
+    }
+    .page-content h1 {
+        font-size: 34px;
+    }
+    .page-content span {
+        font-size: 25px;
+        display: block;
+    }
+    .avg-deadlines {
+        padding-bottom: 40px;
     }
 }
 @media only screen and (max-width: 767px){
@@ -1463,8 +1504,15 @@ border-radius: 16px;
     .passport-section-img {
         left: -52px;
     }
-    
-    
+    .thank-you-page-btn {
+        width: 200px;
+        height: 50px;
+        padding-bottom: 50px !important;
+        font-size: 20px;
+    }
+    .index-sec2-heading {
+        font-size: 30px;
+    }
 }
 @media only screen and (max-width: 550px){
 	.image-gallary {
@@ -1472,6 +1520,20 @@ border-radius: 16px;
     }
     .passport-section-img {
         left: -82px;
+    }
+    .consult-img-box img {
+        width: 100%;
+        margin-top: 100px;
+    }
+    .section-2{
+        height: 100%;
+    }
+    .timeline-head-itmes span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .img-box img{
+        height: auto;
     }
 }
 @media only screen and (max-width: 515px){
@@ -1505,6 +1567,28 @@ border-radius: 16px;
     .tell {
         padding-left: 100px;
     }
+    .consult-img-box img {
+        margin-top: 130px;
+    }
+    .page-content h1 {
+        font-size: 30px;
+    }
+    .page-content span {
+        font-size: 20px;
+    }
+    .thank-you-page-btn {
+        width: 140px;
+        height: 50px;
+        padding-bottom: 50px !important;
+        font-size: 12px;
+    }
+    .service-head {
+        font-size: 30px;
+        line-height: 24px;
+    }
+    .global-text-design-bottom-sec {
+        line-height: 30px;
+    }
 }
 @media only screen and (max-width: 480px){
 	.image-gallary {
@@ -1519,6 +1603,13 @@ border-radius: 16px;
     .table-responsive {
         width: 300px;
     }
+    .consult-img-box img {
+        margin-top: 160px;
+    }
+    .green-box-heading  {
+        font-size:  30px;
+        line-height: 30px;
+    }
 }
 @media only screen and (max-width: 425px){
 	.tell {
@@ -1530,11 +1621,35 @@ border-radius: 16px;
     .global-text-design-bottom-sec {
         font-size: 30px;
     }
+    .consult-img-box img {
+        margin-top: 190px;
+    }
 }
 @media only screen and (max-width: 390px){
 	
     .image-gallary {
         margin-top: 1120px;
+    }
+    .consult-img-box img {
+        margin-top: 200px;
+    }
+    .thank-you-page-btn {
+        width: 120px;
+        height: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px !important;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 360px){
+    .thank-you-page-btn {
+        width: 120px;
+        height: 50px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 50px !important;
+        font-size: 10px;
     }
 }
 
