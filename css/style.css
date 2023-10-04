@@ -1331,7 +1331,7 @@ border-radius: 16px;
         position: absolute; 
         background-color: white !important;
     }
-    .home-banner-abetura, .home-banner {
+    .home-banner-abetura, .home-banner, .home-banner-consult {
         margin-top: 50px;
     }
     .section-2{
@@ -1468,6 +1468,10 @@ border-radius: 16px;
     }
     .passport-section-img {
         left: -82px;
+    }
+    .consult-img-box img {
+        width: 100%;
+        margin-top: 100px;
     }
 }
 @media only screen and (max-width: 515px){
