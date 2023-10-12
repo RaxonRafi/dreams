@@ -67,12 +67,15 @@ body{
 }
 .home-banner{
     background-image: url('../images/Hero\ Banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
     height: 500px;
     width: 100vw;
 }
 .card-form{
     width: 370px;
     height: 610.97px;
+    position: absolute;
     top: 129.13px;
     left: 980px;
     padding: 32px 33px 33px 33px !important;
@@ -96,18 +99,15 @@ body{
     background-color: #00B9BF !important;
 }
 .checkBoxText{
-
     font-family: Montserrat;
     font-size: 12px;
     font-weight: 500;
     line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
 .custom-input{
-
     width: 304px;
     height: 42px;
     padding: 13px 21px 14px 21px !important;
@@ -116,7 +116,6 @@ body{
 
 }
 .custom-input::placeholder{
-
     font-family: Montserrat;
     font-size: 12px !important;
     font-weight: 600 !important;
@@ -127,8 +126,6 @@ body{
 
 }
 .card-body textarea {
-   
-    
     resize: none; /* Prevent textarea from being resizable */
     outline: none; /* Remove the default focus outline */
     border-radius: 25px !important;
@@ -138,6 +135,7 @@ body{
 .blue-card{
     width: 730px;
     height:178.72px;
+    position: absolute;
     left: 110px;
     padding: 50px 70px 50px 70px;
     border-radius: 27px !important;
@@ -1204,6 +1202,147 @@ border-radius: 16px;
     color: transparent;
     padding-bottom: 20px;
 }
+@media only screen and (min-width: 1401px){
+    .card-form{
+        left: 930px;
+    }
+    .blue-card{
+        left: 50px;
+    }
+}
+@media only screen and (min-width: 1435px){
+    .card-form{
+        left: 920px;
+    }
+    .blue-card{
+        left: 50px;
+    }
+}
+@media only screen and (min-width: 1480px){
+    .card-form{
+        left: 970px;
+    }
+    .blue-card{
+        left: 80px;
+    }
+}
+@media only screen and (min-width: 1505px){
+    .card-form{
+        left: 950px;
+    }
+    .blue-card{
+        left: 80px;
+    }
+}
+@media only screen and (min-width: 1510px){
+    .card-form{
+        left: 950px;
+    }
+    .blue-card{
+        left: 80px;
+    }
+}
+@media only screen and (min-width: 1530px){
+    .card-form{
+        left: 970px;
+    }
+    .blue-card{
+        left: 100px;
+    }
+}
+@media only screen and (min-width: 1575px){
+    .card-form{
+        left: 990px;
+    }
+    .blue-card{
+        left: 110px;
+    }
+}
+@media only screen and (min-width: 1600px){
+    .card-form{
+        left: 1030px;
+    }
+    .blue-card{
+        left: 130px;
+    }
+}
+@media only screen and (min-width: 1630px){
+    .blue-card{
+        left: 160px;
+    }
+}
+@media only screen and (min-width: 1700px){
+    .card-form{
+        left: 1070px;
+    }
+    .blue-card{
+        left: 180px;
+    }
+}
+@media only screen and (min-width: 1720px){
+    .card-form{
+        left: 1070px;
+    }
+    .blue-card{
+        left: 190px;
+    }
+}
+@media only screen and (min-width: 1770px){
+    .card-form{
+        left: 1070px;
+    }
+    .blue-card{
+        left: 215px;
+    }
+}
+@media only screen and (min-width: 1800px){
+    .card-form{
+        left: 1070px;
+    }
+    .blue-card{
+        left: 220px;
+    }
+}
+@media only screen and (min-width: 1820px){
+    .card-form{
+        left: 1070px;
+    }
+    .blue-card{
+        left: 220px;
+    }
+}
+@media only screen and (min-width: 1830px){
+    .card-form{
+        left: 1130px;
+    }
+    .blue-card{
+        left: 260px;
+    }
+}
+@media only screen and (min-width: 1840px){
+    .card-form{
+        left: 1070px;
+    }
+    .blue-card{
+        left: 300px;
+    }
+}
+@media only screen and (min-width: 1900px){
+    .card-form{
+        left: 1170px;
+    }
+    .blue-card{
+        left: 300px;
+    }
+}
+@media only screen and (min-width: 2000px){
+    .card-form{
+        left: 1230px;
+    }
+    .blue-card{
+        left: 390px;
+    }
+}
 @media only screen and (max-width: 1400px){
     .card-form{
         left: 850px;
@@ -1223,14 +1362,41 @@ border-radius: 16px;
         width: 400px;
     }
 }
+@media only screen and (max-width: 1360px){
+    .card-form{
+        left: 810px;
+    }
+    .blue-card{
+        width: 690px;
+        left: 80px;
+    }
+}
+@media only screen and (max-width: 1352px){
+    .card-form{
+        left: 810px;
+    }
+    .blue-card{
+        width: 690px;
+        left: 90px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .card-form{
+        left: 810px;
+    }
+    .blue-card{
+        width: 690px;
+        left: 60px;
+    }
+}
 @media only screen and (max-width: 1250px){
     .card-form{
-        left: 700px;
+        left: 780px;
     }
     .blue-card{
         width: 560px;
         height:178.72px;
-        left: 100px;
+        left: 40px;
     }
     .best-seller-text span{
         font-size: 22px;
