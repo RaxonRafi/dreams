@@ -68,6 +68,7 @@ body{
 .home-banner{
     background-image: url('../images/Hero\ Banner.png');
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
     width: 100vw;
@@ -569,6 +570,7 @@ table th{
 .home-banner-abetura{
     background-image: url('../images/Hero\ Banner2.png');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 500px;
     width: 100vw;
     background-position-x: center;
@@ -919,6 +921,7 @@ border-radius: 16px;
 .home-banner-nif{
     background-image: url('../images/Hero\ Banner-nif.png');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 500px;
     width: 100vw;
     background-position-x: center;
@@ -1051,6 +1054,7 @@ border-radius: 16px;
 .home-banner-consult{
     background-image: url('../images/Hero\ Bannerconsult.png');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 500px;
     width: 100vw;
     background-position-x: center;
