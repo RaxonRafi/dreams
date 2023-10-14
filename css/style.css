@@ -4,6 +4,9 @@ body{
     margin: 0;
     font-family: Montserrat;
 }
+button {
+    cursor: pointer;
+}
 .topNavBar{
 
   background-color: #27272D;
@@ -67,12 +70,16 @@ body{
 }
 .home-banner{
     background-image: url('../images/Hero\ Banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 500px;
     width: 100vw;
 }
 .card-form{
     width: 370px;
     height: 610.97px;
+    position: absolute;
     top: 129.13px;
     left: 980px;
     padding: 32px 33px 33px 33px !important;
@@ -96,18 +103,15 @@ body{
     background-color: #00B9BF !important;
 }
 .checkBoxText{
-
     font-family: Montserrat;
     font-size: 12px;
     font-weight: 500;
     line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
 .custom-input{
-
     width: 304px;
     height: 42px;
     padding: 13px 21px 14px 21px !important;
@@ -116,7 +120,6 @@ body{
 
 }
 .custom-input::placeholder{
-
     font-family: Montserrat;
     font-size: 12px !important;
     font-weight: 600 !important;
@@ -127,8 +130,6 @@ body{
 
 }
 .card-body textarea {
-   
-    
     resize: none; /* Prevent textarea from being resizable */
     outline: none; /* Remove the default focus outline */
     border-radius: 25px !important;
@@ -138,6 +139,7 @@ body{
 .blue-card{
     width: 730px;
     height:178.72px;
+    position: absolute;
     left: 110px;
     padding: 50px 70px 50px 70px;
     border-radius: 27px !important;
@@ -208,14 +210,16 @@ body{
 }
 
 .card-box-content{
-
-    width:386px;
+    width:300px;
     height: 60px;
     padding: 20px 0.01px 0px 20px;
     border-radius: 10px;
     border: 2px;
-    gap: 10px;
+    cursor: pointer;
     background: linear-gradient(96.09deg, #008FBF 13.1%, #00B9BF 92.33%);
+}
+.card-box-content:hover {
+    scale: 1.03;
 }
 .card-content span{
     font-family: Montserrat;
@@ -246,7 +250,6 @@ body{
     height: 40px;
 }
 .headline-text span{
-    
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 800;
@@ -254,14 +257,10 @@ body{
     letter-spacing: 0em;
     text-align: left;
     color: #27272D;
-
-    
-
 }
 .passport-text p{
-
     font-family: Montserrat;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0em;
@@ -269,19 +268,29 @@ body{
     padding-top: 20px;
     padding-left: 55px;
     color: #27272D;
-
 }
 .passport-btn{
-    margin-left: 150px;
+    margin-left: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+    background: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 1px 0;
+}
+.passport-btn:hover {
+    background: linear-gradient(96.09deg, #008FBF 13.1%, #00B9BF 92.33%);
+}
+.passport-btn:hover a span {
+    color: white;
+    font-weight: 600;
 }
 .passport-btn a{
-
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
     border: 4px solid;
     border-color: linear-gradient(95.62deg, #008FBF 10.43%, #00B9BF 77.24%);
-
 }
 .passport-btn a span{
 
@@ -312,35 +321,28 @@ body{
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
-    
-
 }
 .design-sem1-text{
     margin: 10px 20px;
-
 }
 .design-sem1-p{
-    padding-top: 50px;
-
-    
+    padding-top: 20px;
 }
 .design-sem1-p , p{
     text-align: left;
     font-family: Montserrat;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
-    
 }
 .table-primary {
     --bs-table-bg: #028ba5 !important;
 }
 
 table th{
- 
     font-size: 14px;
     font-weight: 800;
     line-height: 14px;
@@ -349,21 +351,20 @@ table th{
     color: white !important;
 }
 .table-btn a{
-
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
-    border: 4px solid;
     background: linear-gradient(144.31deg, #00B9BF 20.9%, #008FBF 106.96%);
-    border: 4px solid;
-    border-color: linear-gradient(95.36deg, #00B9BF 38.33%, #008FBF 95.05%);
-
-
-
+    border: 3px solid #00B9BF;
+}
+.table-btn a:hover {
+    background: linear-gradient(144.31deg, #37ccd1 20.9%, #008FBF 106.96%);
+}
+.table-btn:hover {
+    scale: 1.02;
 }
 
 .table-btn a span{
-
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 400;
@@ -371,7 +372,6 @@ table th{
     letter-spacing: 0em;
     text-align: left;
     color:  #ffffff;
-
 }
 .table-text span{
     color: white;
@@ -438,12 +438,14 @@ table th{
 }
 .passport-section-img{
     position: absolute;
-    left: 100px;
+    left: calc(50vw - 642px);
 }
 .passport-section-banner{
     background: linear-gradient(91.79deg, rgba(0, 185, 191, 0.8) 13.1%, rgba(0, 143, 191, 0.8) 98.12%);
+    backdrop-filter: blur(8px); 
     width: 1162px;
-    height: 189px;
+    height: auto;
+    padding: 50px 20px;
     top: 335px;
     border-radius: 10px;
     position:relative ;
@@ -455,6 +457,7 @@ table th{
     letter-spacing: -0.055em;
     text-align: left;
     color: white;
+    white-space: nowrap;
 }
 .passport-section-banner-content{
     text-align: left;
@@ -571,6 +574,7 @@ table th{
 .home-banner-abetura{
     background-image: url('../images/Hero\ Banner2.png');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 500px;
     width: 100vw;
     background-position-x: center;
@@ -649,10 +653,10 @@ table th{
 }
 
 .img-6-1 {
-    padding-left: 140px !important;
+    padding-left: 111px !important;
 }
 .img-6-2 {
-    padding-left: 230px !important;
+    padding-left: 210px !important;
 }
 .mask-grup-img{
     overflow: hidden !important;
@@ -913,9 +917,6 @@ border-radius: 16px;
     letter-spacing: 0em;
     text-align: center;
     text-decoration: none;
-
-
-
 }
 .innner-container-1{
     padding: 100px;
@@ -924,6 +925,7 @@ border-radius: 16px;
 .home-banner-nif{
     background-image: url('../images/Hero\ Banner-nif.png');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 500px;
     width: 100vw;
     background-position-x: center;
@@ -945,8 +947,6 @@ border-radius: 16px;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
-    
-    
 }
 .nif-span-text{
 
@@ -957,11 +957,8 @@ border-radius: 16px;
     letter-spacing: 0em;
     text-align: left;
     color: #00B9BF;
-    
-    
 }
-.check-text{
-
+.check-text {
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 400;
@@ -970,7 +967,6 @@ border-radius: 16px;
     text-align: left;
     color: #193766;
     padding-left: 10px;
-
 }
 .nif-img-box{
     width: 445px;
@@ -978,14 +974,12 @@ border-radius: 16px;
     padding-left: 80px !important;
 }
 .nif-sec2-text p{
-
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
     color: #000000;
-
 }
 .thank-you-page{
     background: linear-gradient(122.87deg, #00B9BF 8.22%, #008FBF 98.06%);
@@ -994,25 +988,19 @@ border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .page-content {
     text-align: center;
 }
 .page-content h1{
- 
     font-size: 45px;
     font-weight: 800;
     line-height: 42px;
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
-
-    
 }
 .page-content span{
- 
-    
     font-size: 45px;
     font-weight: 400;
     line-height: 42px;
@@ -1021,7 +1009,6 @@ border-radius: 16px;
     color: #FFFFFF;
 }
 .page-content h5{
-
     font-size: 30px;
     font-weight: 400;
     line-height: 42px;
@@ -1036,8 +1023,6 @@ border-radius: 16px;
     justify-content: center;
     align-items: center;
     padding: 10px;
- 
-
 }
 .thank-you-page-btn{
     width: 272px;
@@ -1056,6 +1041,7 @@ border-radius: 16px;
 .home-banner-consult{
     background-image: url('../images/Hero\ Bannerconsult.png');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 500px;
     width: 100vw;
     background-position-x: center;
@@ -1084,14 +1070,12 @@ border-radius: 16px;
 
 }
 .blue-tags-consult span{
-    
     font-size: 16px;
     font-weight: 500;
     line-height: 32px;
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
-
 }
 .blue-tag-group1{
       display: flex;
@@ -1207,6 +1191,150 @@ border-radius: 16px;
     color: transparent;
     padding-bottom: 20px;
 }
+.padding-pass {
+    padding: 50px 90px !important;
+}
+@media only screen and (min-width: 1401px){
+    .card-form{
+        left: 930px;
+    }
+    .blue-card{
+        left: 50px;
+    }
+}
+@media only screen and (min-width: 1435px){
+    .card-form{
+        left: 920px;
+    }
+    .blue-card{
+        left: 50px;
+    }
+}
+@media only screen and (min-width: 1480px){
+    .card-form{
+        left: 970px;
+    }
+    .blue-card{
+        left: 80px;
+    }
+}
+@media only screen and (min-width: 1505px){
+    .card-form{
+        left: 950px;
+    }
+    .blue-card{
+        left: 80px;
+    }
+}
+@media only screen and (min-width: 1510px){
+    .card-form{
+        left: 950px;
+    }
+    .blue-card{
+        left: 80px;
+    }
+}
+@media only screen and (min-width: 1530px){
+    .card-form{
+        left: 970px;
+    }
+    .blue-card{
+        left: 100px;
+    }
+}
+@media only screen and (min-width: 1575px){
+    .card-form{
+        left: 990px;
+    }
+    .blue-card{
+        left: 110px;
+    }
+}
+@media only screen and (min-width: 1600px){
+    .card-form{
+        left: 1030px;
+    }
+    .blue-card{
+        left: 130px;
+    }
+}
+@media only screen and (min-width: 1630px){
+    .blue-card{
+        left: 160px;
+    }
+}
+@media only screen and (min-width: 1700px){
+    .card-form{
+        left: 1070px;
+    }
+    .blue-card{
+        left: 180px;
+    }
+}
+@media only screen and (min-width: 1720px){
+    .card-form{
+        left: 1070px;
+    }
+    .blue-card{
+        left: 190px;
+    }
+}
+@media only screen and (min-width: 1770px){
+    .card-form{
+        left: 1070px;
+    }
+    .blue-card{
+        left: 215px;
+    }
+}
+@media only screen and (min-width: 1800px){
+    .card-form{
+        left: 1070px;
+    }
+    .blue-card{
+        left: 220px;
+    }
+}
+@media only screen and (min-width: 1820px){
+    .card-form{
+        left: 1070px;
+    }
+    .blue-card{
+        left: 220px;
+    }
+}
+@media only screen and (min-width: 1830px){
+    .card-form{
+        left: 1130px;
+    }
+    .blue-card{
+        left: 260px;
+    }
+}
+@media only screen and (min-width: 1840px){
+    .card-form{
+        left: 1070px;
+    }
+    .blue-card{
+        left: 300px;
+    }
+}
+@media only screen and (min-width: 1900px){
+    .card-form{
+        left: 1170px;
+    }
+    .blue-card{
+        left: 300px;
+    }
+}
+@media only screen and (min-width: 2000px){
+    .card-form{
+        left: 1230px;
+    }
+    .blue-card{
+        left: 390px;
+    }
+}
 @media only screen and (max-width: 1400px){
     .card-form{
         left: 850px;
@@ -1214,26 +1342,53 @@ border-radius: 16px;
 }
 @media only screen and (max-width: 1370px){
     .img-6-1 {
-        padding-left: 140px !important;
+        padding-left: 110px !important;
     }
     .img-6-1 img {
         width: 400px;
     }
     .img-6-2 {
-        padding-left: 200px !important;
+        padding-left: 170px !important;
     }
     .img-6-2 img {
         width: 400px;
     }
 }
+@media only screen and (max-width: 1360px){
+    .card-form{
+        left: 810px;
+    }
+    .blue-card{
+        width: 690px;
+        left: 80px;
+    }
+}
+@media only screen and (max-width: 1352px){
+    .card-form{
+        left: 810px;
+    }
+    .blue-card{
+        width: 690px;
+        left: 90px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .card-form{
+        left: 810px;
+    }
+    .blue-card{
+        width: 690px;
+        left: 60px;
+    }
+}
 @media only screen and (max-width: 1250px){
     .card-form{
-        left: 700px;
+        left: 780px;
     }
     .blue-card{
         width: 560px;
         height:178.72px;
-        left: 100px;
+        left: 40px;
     }
     .best-seller-text span{
         font-size: 22px;
@@ -1257,13 +1412,13 @@ border-radius: 16px;
 
 @media only screen and (max-width: 1200px){
     .img-6-1 {
-        padding-left: 140px !important;
+        padding-left: 110px !important;
     }
     .img-6-1 img {
         width: 300px;
     }
     .img-6-2 {
-        padding-left: 150px !important;
+        padding-left: 120px !important;
     }
     .img-6-2 img {
         width: 300px;
@@ -1345,6 +1500,22 @@ border-radius: 16px;
     }
 }
 @media only screen and (max-width: 992px){
+    .passport-section-banner-head h1 {
+        font-size: 50px;
+    }
+    .passport-section-banner-content h2 {
+        font-size: 40px;
+    }
+    .passport-section-banner-text {
+        font-size: 30px;
+    }
+    .passport-section-img{
+        position: absolute;
+        left: 10%;
+    }
+    .padding-pass {
+        padding: 50px 10px !important;
+    }
     .blue-card {
         margin: 640px 0px 0px 0px;
     }
@@ -1384,13 +1555,13 @@ border-radius: 16px;
         font-size: 16px;
     }
     .img-6-1 {
-        padding-left: 140px !important;
+        padding-left: 110px !important;
     }
     .img-6-1 img {
         width: 300px;
     }
     .img-6-2 {
-        padding-left: 140px !important;
+        padding-left: 110px !important;
         margin-top: 20px !important;
     }
     .img-6-2 img {
@@ -1428,6 +1599,21 @@ border-radius: 16px;
     }
 }
 @media only screen and (max-width: 767px){
+    .padding-pass {
+        padding: 50px 5px !important;
+    }
+    .passport-section-banner {
+        padding: 60px 20px;
+    }
+    .passport-section-banner-head h1 {
+        font-size: 40px;
+    }
+    .passport-section-banner-content h2 {
+        font-size: 30px;
+    }
+    .passport-section-banner-text, .passport-section-banner-link {
+        font-size: 20px;
+    }
     .section-2{
         height: 1230px;
     }
@@ -1452,7 +1638,7 @@ border-radius: 16px;
         padding: 50px;
     }
     .img-6-1 {
-        padding-left: 140px !important;
+        padding-left: 110px !important;
         margin-top: 100px !important;
     }
     .mask-grup-img img{
@@ -1473,13 +1659,13 @@ border-radius: 16px;
 }
 @media only screen and (max-width: 700px){
 	.img-6-1 {
-        padding-left: 140px !important;
+        padding-left: 110px !important;
     }
     .img-6-1 img {
         width: 300px;
     }
     .img-6-2 {
-        padding-left: 140px !important;
+        padding-left: 110px !important;
         margin-top: 20px !important;
     }
     .img-6-2 img {
@@ -1494,11 +1680,23 @@ border-radius: 16px;
     }
 }
 @media only screen and (max-width: 590px){
+    .passport-section-banner {
+        padding: 50px 20px;
+    }
+    .passport-section-banner-head h1 {
+        font-size: 40px;
+    }
+    .passport-section-banner-content h2 {
+        font-size: 25px;
+    }
+    .passport-section-banner-text, .passport-section-banner-link {
+        font-size: 20px;
+    }
 	.img-6-1 {
-        padding-left: 100px !important;
+        padding-left: 75px !important;
     }
     .img-6-2 {
-        padding-left: 100px !important;
+        padding-left: 75px !important;
         margin-top: 20px !important;
     }
     .passport-section-img {
@@ -1537,6 +1735,18 @@ border-radius: 16px;
     }
 }
 @media only screen and (max-width: 515px){
+    .passport-section-banner {
+        padding: 60px 20px;
+    }
+    .passport-section-banner-head h1 {
+        font-size: 35px;
+    }
+    .passport-section-banner-content h2 {
+        font-size: 25px;
+    }
+    .passport-section-banner-text, .passport-section-banner-link {
+        font-size: 18px;
+    }
 	.img-6-1 {
         padding-left: 50px !important;
     }
@@ -1591,6 +1801,24 @@ border-radius: 16px;
     }
 }
 @media only screen and (max-width: 480px){
+    .passport-section-img img {
+        width: 80%;
+    }
+    .passport-section-banner {
+        padding: 60px 5px;
+    }
+    .passport-section-banner-head h1 {
+        font-size: 35px;
+    }
+    .passport-section-banner-content h2 {
+        font-size: 20px;
+    }
+    .passport-section-banner-text, .passport-section-banner-link {
+        font-size: 16px;
+    }
+    .passport-section-img{
+        left: -180px;
+    }
 	.image-gallary {
         margin-top: 1040px;
     }
@@ -1626,7 +1854,18 @@ border-radius: 16px;
     }
 }
 @media only screen and (max-width: 390px){
-	
+	.passport-section-banner {
+        padding: 40px 5px;
+    }
+    .passport-section-banner-head h1 {
+        font-size: 30px;
+    }
+    .passport-section-banner-content h2 {
+        font-size: 16px;
+    }
+    .passport-section-banner-text, .passport-section-banner-link {
+        font-size: 14px;
+    }
     .image-gallary {
         margin-top: 1120px;
     }
