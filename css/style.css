@@ -4,6 +4,9 @@ body{
     margin: 0;
     font-family: Montserrat;
 }
+button {
+    cursor: pointer;
+}
 .topNavBar{
 
   background-color: #27272D;
@@ -207,14 +210,16 @@ body{
 }
 
 .card-box-content{
-
-    width:386px;
+    width:300px;
     height: 60px;
     padding: 20px 0.01px 0px 20px;
     border-radius: 10px;
     border: 2px;
-    gap: 10px;
+    cursor: pointer;
     background: linear-gradient(96.09deg, #008FBF 13.1%, #00B9BF 92.33%);
+}
+.card-box-content:hover {
+    scale: 1.03;
 }
 .card-content span{
     font-family: Montserrat;
@@ -245,7 +250,6 @@ body{
     height: 40px;
 }
 .headline-text span{
-    
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 800;
@@ -253,14 +257,10 @@ body{
     letter-spacing: 0em;
     text-align: left;
     color: #27272D;
-
-    
-
 }
 .passport-text p{
-
     font-family: Montserrat;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0em;
@@ -268,19 +268,29 @@ body{
     padding-top: 20px;
     padding-left: 55px;
     color: #27272D;
-
 }
 .passport-btn{
-    margin-left: 150px;
+    margin-left: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+    background: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 1px 0;
+}
+.passport-btn:hover {
+    background: linear-gradient(96.09deg, #008FBF 13.1%, #00B9BF 92.33%);
+}
+.passport-btn:hover a span {
+    color: white;
+    font-weight: 600;
 }
 .passport-btn a{
-
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
     border: 4px solid;
     border-color: linear-gradient(95.62deg, #008FBF 10.43%, #00B9BF 77.24%);
-
 }
 .passport-btn a span{
 
@@ -311,35 +321,28 @@ body{
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
-    
-
 }
 .design-sem1-text{
     margin: 10px 20px;
-
 }
 .design-sem1-p{
-    padding-top: 50px;
-
-    
+    padding-top: 20px;
 }
 .design-sem1-p , p{
     text-align: left;
     font-family: Montserrat;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
-    
 }
 .table-primary {
     --bs-table-bg: #028ba5 !important;
 }
 
 table th{
- 
     font-size: 14px;
     font-weight: 800;
     line-height: 14px;
@@ -348,21 +351,20 @@ table th{
     color: white !important;
 }
 .table-btn a{
-
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
-    border: 4px solid;
     background: linear-gradient(144.31deg, #00B9BF 20.9%, #008FBF 106.96%);
-    border: 4px solid;
-    border-color: linear-gradient(95.36deg, #00B9BF 38.33%, #008FBF 95.05%);
-
-
-
+    border: 3px solid #00B9BF;
+}
+.table-btn a:hover {
+    background: linear-gradient(144.31deg, #37ccd1 20.9%, #008FBF 106.96%);
+}
+.table-btn:hover {
+    scale: 1.02;
 }
 
 .table-btn a span{
-
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 400;
@@ -370,7 +372,6 @@ table th{
     letter-spacing: 0em;
     text-align: left;
     color:  #ffffff;
-
 }
 .table-text span{
     color: white;
@@ -437,12 +438,14 @@ table th{
 }
 .passport-section-img{
     position: absolute;
-    left: 100px;
+    left: calc(50vw - 642px);
 }
 .passport-section-banner{
     background: linear-gradient(91.79deg, rgba(0, 185, 191, 0.8) 13.1%, rgba(0, 143, 191, 0.8) 98.12%);
+    backdrop-filter: blur(8px); 
     width: 1162px;
-    height: 189px;
+    height: auto;
+    padding: 50px 20px;
     top: 335px;
     border-radius: 10px;
     position:relative ;
@@ -454,6 +457,7 @@ table th{
     letter-spacing: -0.055em;
     text-align: left;
     color: white;
+    white-space: nowrap;
 }
 .passport-section-banner-content{
     text-align: left;
@@ -1512,6 +1516,10 @@ border-radius: 16px;
     }
 }
 @media only screen and (max-width: 992px){
+    .passport-section-img{
+        position: absolute;
+        left: 20%;
+    }
     .blue-card {
         margin: 640px 0px 0px 0px;
     }
