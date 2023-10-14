@@ -1801,6 +1801,15 @@ border-radius: 16px;
     .global-text-design-bottom-sec {
         line-height: 30px;
     }
+    .topNavBar {
+        justify-content: space-between;
+    }
+    .topbar-content {
+        width: auto;
+        height: auto;
+        white-space: nowrap;
+        padding: 0 5px;
+    }
 }
 @media only screen and (max-width: 480px){
     .passport-section-img img {
