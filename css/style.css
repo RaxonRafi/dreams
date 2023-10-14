@@ -653,10 +653,10 @@ table th{
 }
 
 .img-6-1 {
-    padding-left: 140px !important;
+    padding-left: 111px !important;
 }
 .img-6-2 {
-    padding-left: 230px !important;
+    padding-left: 210px !important;
 }
 .mask-grup-img{
     overflow: hidden !important;
@@ -917,9 +917,6 @@ border-radius: 16px;
     letter-spacing: 0em;
     text-align: center;
     text-decoration: none;
-
-
-
 }
 
 .home-banner-nif{
@@ -947,8 +944,6 @@ border-radius: 16px;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
-    
-    
 }
 .nif-span-text{
 
@@ -959,11 +954,8 @@ border-radius: 16px;
     letter-spacing: 0em;
     text-align: left;
     color: #00B9BF;
-    
-    
 }
-.check-text{
-
+.check-text {
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 400;
@@ -972,7 +964,6 @@ border-radius: 16px;
     text-align: left;
     color: #193766;
     padding-left: 10px;
-
 }
 .nif-img-box{
     width: 445px;
@@ -980,14 +971,12 @@ border-radius: 16px;
     padding-left: 80px !important;
 }
 .nif-sec2-text p{
-
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
     color: #000000;
-
 }
 .thank-you-page{
     background: linear-gradient(122.87deg, #00B9BF 8.22%, #008FBF 98.06%);
@@ -996,25 +985,19 @@ border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .page-content {
     text-align: center;
 }
 .page-content h1{
- 
     font-size: 45px;
     font-weight: 800;
     line-height: 42px;
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
-
-    
 }
 .page-content span{
- 
-    
     font-size: 45px;
     font-weight: 400;
     line-height: 42px;
@@ -1023,7 +1006,6 @@ border-radius: 16px;
     color: #FFFFFF;
 }
 .page-content h5{
-
     font-size: 30px;
     font-weight: 400;
     line-height: 42px;
@@ -1038,8 +1020,6 @@ border-radius: 16px;
     justify-content: center;
     align-items: center;
     padding: 10px;
- 
-
 }
 .thank-you-page-btn{
     width: 272px;
@@ -1087,14 +1067,12 @@ border-radius: 16px;
 
 }
 .blue-tags-consult span{
-    
     font-size: 16px;
     font-weight: 500;
     line-height: 32px;
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
-
 }
 .blue-tag-group1{
       display: flex;
@@ -1209,6 +1187,9 @@ border-radius: 16px;
     background-clip: text;
     color: transparent;
     padding-bottom: 20px;
+}
+.padding-pass {
+    padding: 50px 90px !important;
 }
 @media only screen and (min-width: 1401px){
     .card-form{
@@ -1358,13 +1339,13 @@ border-radius: 16px;
 }
 @media only screen and (max-width: 1370px){
     .img-6-1 {
-        padding-left: 140px !important;
+        padding-left: 110px !important;
     }
     .img-6-1 img {
         width: 400px;
     }
     .img-6-2 {
-        padding-left: 200px !important;
+        padding-left: 170px !important;
     }
     .img-6-2 img {
         width: 400px;
@@ -1428,13 +1409,13 @@ border-radius: 16px;
 
 @media only screen and (max-width: 1200px){
     .img-6-1 {
-        padding-left: 140px !important;
+        padding-left: 110px !important;
     }
     .img-6-1 img {
         width: 300px;
     }
     .img-6-2 {
-        padding-left: 150px !important;
+        padding-left: 120px !important;
     }
     .img-6-2 img {
         width: 300px;
@@ -1516,9 +1497,21 @@ border-radius: 16px;
     }
 }
 @media only screen and (max-width: 992px){
+    .passport-section-banner-head h1 {
+        font-size: 50px;
+    }
+    .passport-section-banner-content h2 {
+        font-size: 40px;
+    }
+    .passport-section-banner-text {
+        font-size: 30px;
+    }
     .passport-section-img{
         position: absolute;
-        left: 20%;
+        left: 10%;
+    }
+    .padding-pass {
+        padding: 50px 10px !important;
     }
     .blue-card {
         margin: 640px 0px 0px 0px;
@@ -1559,13 +1552,13 @@ border-radius: 16px;
         font-size: 16px;
     }
     .img-6-1 {
-        padding-left: 140px !important;
+        padding-left: 110px !important;
     }
     .img-6-1 img {
         width: 300px;
     }
     .img-6-2 {
-        padding-left: 140px !important;
+        padding-left: 110px !important;
         margin-top: 20px !important;
     }
     .img-6-2 img {
@@ -1603,6 +1596,21 @@ border-radius: 16px;
     }
 }
 @media only screen and (max-width: 767px){
+    .padding-pass {
+        padding: 50px 5px !important;
+    }
+    .passport-section-banner {
+        padding: 60px 20px;
+    }
+    .passport-section-banner-head h1 {
+        font-size: 40px;
+    }
+    .passport-section-banner-content h2 {
+        font-size: 30px;
+    }
+    .passport-section-banner-text, .passport-section-banner-link {
+        font-size: 20px;
+    }
     .section-2{
         height: 1230px;
     }
@@ -1627,7 +1635,7 @@ border-radius: 16px;
         padding: 50px;
     }
     .img-6-1 {
-        padding-left: 140px !important;
+        padding-left: 110px !important;
         margin-top: 100px !important;
     }
     .mask-grup-img img{
@@ -1648,13 +1656,13 @@ border-radius: 16px;
 }
 @media only screen and (max-width: 700px){
 	.img-6-1 {
-        padding-left: 140px !important;
+        padding-left: 110px !important;
     }
     .img-6-1 img {
         width: 300px;
     }
     .img-6-2 {
-        padding-left: 140px !important;
+        padding-left: 110px !important;
         margin-top: 20px !important;
     }
     .img-6-2 img {
@@ -1669,11 +1677,23 @@ border-radius: 16px;
     }
 }
 @media only screen and (max-width: 590px){
+    .passport-section-banner {
+        padding: 50px 20px;
+    }
+    .passport-section-banner-head h1 {
+        font-size: 40px;
+    }
+    .passport-section-banner-content h2 {
+        font-size: 25px;
+    }
+    .passport-section-banner-text, .passport-section-banner-link {
+        font-size: 20px;
+    }
 	.img-6-1 {
-        padding-left: 100px !important;
+        padding-left: 75px !important;
     }
     .img-6-2 {
-        padding-left: 100px !important;
+        padding-left: 75px !important;
         margin-top: 20px !important;
     }
     .passport-section-img {
@@ -1712,6 +1732,18 @@ border-radius: 16px;
     }
 }
 @media only screen and (max-width: 515px){
+    .passport-section-banner {
+        padding: 60px 20px;
+    }
+    .passport-section-banner-head h1 {
+        font-size: 35px;
+    }
+    .passport-section-banner-content h2 {
+        font-size: 25px;
+    }
+    .passport-section-banner-text, .passport-section-banner-link {
+        font-size: 18px;
+    }
 	.img-6-1 {
         padding-left: 50px !important;
     }
@@ -1766,6 +1798,24 @@ border-radius: 16px;
     }
 }
 @media only screen and (max-width: 480px){
+    .passport-section-img img {
+        width: 80%;
+    }
+    .passport-section-banner {
+        padding: 60px 5px;
+    }
+    .passport-section-banner-head h1 {
+        font-size: 35px;
+    }
+    .passport-section-banner-content h2 {
+        font-size: 20px;
+    }
+    .passport-section-banner-text, .passport-section-banner-link {
+        font-size: 16px;
+    }
+    .passport-section-img{
+        left: -180px;
+    }
 	.image-gallary {
         margin-top: 1040px;
     }
@@ -1801,7 +1851,18 @@ border-radius: 16px;
     }
 }
 @media only screen and (max-width: 390px){
-	
+	.passport-section-banner {
+        padding: 40px 5px;
+    }
+    .passport-section-banner-head h1 {
+        font-size: 30px;
+    }
+    .passport-section-banner-content h2 {
+        font-size: 16px;
+    }
+    .passport-section-banner-text, .passport-section-banner-link {
+        font-size: 14px;
+    }
     .image-gallary {
         margin-top: 1120px;
     }
