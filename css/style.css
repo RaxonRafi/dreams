@@ -385,10 +385,8 @@ table th{
 }
 /* portuguese-nationality-timeline */
 .portuguese-nationality-timeline{
-
     padding-top: 100px;
     background: #00B9BF;
-
 }
 .timeline-head-itmes{
     text-align: center;
@@ -907,19 +905,16 @@ border-radius: 16px;
 .custom-btn{
 
     width: 153px;
-    height: 51px;
-    padding: 8px 16px 8px 16px;
     border-radius: 15px;
     border: 2px solid #58F0F5;
     font-size: 13px;
     font-weight: 600;
-    line-height: 35px;
-    letter-spacing: 0em;
     text-align: center;
     text-decoration: none;
+    padding: 6px;
 }
 .innner-container-1{
-    padding: 100px;
+    padding: 50px 10px;
 }
 
 .home-banner-nif{
@@ -1754,6 +1749,13 @@ border-radius: 16px;
         padding-left: 50px !important;
         margin-top: 20px !important;
     }
+    .card-content span{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .blue-card-2 {
+        padding: 30px 20px;
+    }
     .passport-btn {
         margin-left: 50px;
     }
@@ -1798,6 +1800,15 @@ border-radius: 16px;
     }
     .global-text-design-bottom-sec {
         line-height: 30px;
+    }
+    .topNavBar {
+        justify-content: space-between;
+    }
+    .topbar-content {
+        width: auto;
+        height: auto;
+        white-space: nowrap;
+        padding: 0 5px;
     }
 }
 @media only screen and (max-width: 480px){
@@ -1851,6 +1862,14 @@ border-radius: 16px;
     }
     .consult-img-box img {
         margin-top: 190px;
+    }
+    .card-content span{
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .blue-card-2 {
+        
+        padding: 20px 10px;
     }
 }
 @media only screen and (max-width: 390px){
